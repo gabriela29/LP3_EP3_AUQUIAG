@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:id="@+id/ivContactImage"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nombre del contacto"
+            android:id="@+id/contactNombre"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#b9e95595" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:id="@+id/phoneNumero"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/emailDireccion"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:id="@+id/cDireccion"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>
